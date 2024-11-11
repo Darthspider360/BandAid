@@ -35,6 +35,11 @@ h3 {
     font-size: 1.5rem;
 }
 
+#line-break{
+    color: var(--secondary-color);
+}
+
+/* navbar */
 
 .navbar-custom {
     color: #353b3c;
@@ -64,17 +69,34 @@ h3 {
     padding: 8rem 0;
 }
 
+/* Tips section */
+#tips ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+#circle-cover-bg{
+    background: url("../images/reasons-image.webp") no-repeat center center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* makes the square image a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
 
 /* Footer / contact */
 
 #contact {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--background-color);
     padding-bottom: 3rem;
 }
 
 #contact .table-dark * {
     background-color: transparent;
+    color: var(--background-color);
 }
 
 /* Media query for tablets and larger (768px onward) */
