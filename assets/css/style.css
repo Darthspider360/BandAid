@@ -11,21 +11,29 @@
 }
 
 /* Genral styles */
+body{
+    font-family: var(--secondary-font);
+    background-color: #dde1e4;
+    padding-top: 57.15px; /* pushes the top of the header down under fixed navbar */
+}
 
 h1,h2,h3{
     font-family: var(--primary-font);
 }
 
-body{
-    font-family: var(--secondary-font);
-    background-color: #dde1e4;
-    
+.logo-font{
+    font-family: var(--primary-font);
+}
+
+.section {
+    padding-top: 4rem; /* prevent overlap */
+    font-size: 1.8rem;
 }
 
 
-nav > .navbar-custom {
+.navbar-custom {
     color: #353b3c;
-    background-color: var(--background-highlight);
+    background-color: var(--background-highlight) !important;
 }
 
 .navbar-custom .nav-link {
@@ -41,11 +49,17 @@ nav > .navbar-custom {
     width: 30px;
 }
 
+/* Style the hero section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: var(--background-highlight);
+    padding: 8rem 0;
+}
 
-
-/* Make the navbar sticky */
-.navbar {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+#affermation-carousel{
+    width:50%
+    height:50px
 }

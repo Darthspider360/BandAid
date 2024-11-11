@@ -18,42 +18,84 @@
 </head>
 
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-custom">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/images/logo.png" alt="Logo" width="30" height="30">
-                BandAid
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+
+    <body class="d-flex flex-column min-vh-100">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-custom fixed-top">
+            <div class="container">
+                <a class="navbar-brand logo-font" href="#">
+                    <img src="assets/images/logo.png" alt="Logo" width="30" height="30">
+                    BandAid
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <h1>BandAid</h1>
-    <p>test</p>
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
-</body>
+        </nav>
+
+        <!-- Hero Section -->
+        <header class="hero text-center" id="mainContent">
+            <div class="container">
+                <h1 class="display-4">
+                    <span class="hero-part-1">BandAid</span>
+                </h1>
+                <p class="lead">It's okay to not be okay.</p>
+            </div>
+        </header>
+
+
+        <main>
+            <!-- Carousel Section -->
+            <div id="affermation-carousel" class="carousel slide container" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/affirmations/1.png" class="d-block w-100"
+                            alt="I am in the right place at the right time, doing the right thing">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/affirmations/2.png" class="d-block w-100"
+                            alt="You are loved just for being who you are, just for existing">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/affirmations/3.png" class="d-block w-100"
+                            alt="Your life is about to be incredible">
+                    </div>
+                </div>
+            </div>
+            <div class="container section" id="about">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-center">What is BandAid?</h2>
+                        <p class="text-center">BandAid is a site aimed at providing information around mental health and
+                            different forms of support. The site also provides numbers for emergency contacts in times
+                            of crisis. We are devoted to ending the stigma around mental health for everyone.</p>
+                        <p class="text-center">Rembember: <em>You are never alone.</em></p>
+                    </div>
+                </div>
+        </main>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    </body>
 
 </html>
 </li>
