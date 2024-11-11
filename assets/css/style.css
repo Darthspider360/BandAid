@@ -1,0 +1,51 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&family=Playwrite+VN:wght@100..400&display=swap');
+
+/* css variables */
+:root {
+    --primary-font: playwrite vn, sans-serif;
+    --secondary-font: manjari, sans-serif;
+    --primary-color: #353b3c;
+    --secondary-color: #846a6a;
+    --background-highlight: #c6c7c4;
+}
+
+/* Genral styles */
+
+h1,h2,h3{
+    font-family: var(--primary-font);
+}
+
+body{
+    font-family: var(--secondary-font);
+    background-color: #dde1e4;
+    
+}
+
+
+nav > .navbar-custom {
+    color: #353b3c;
+    background-color: var(--background-highlight);
+}
+
+.navbar-custom .nav-link {
+    color: #353b3c;
+}
+
+.navbar-custom .nav-link.active {
+    font-weight: bold;
+}
+
+
+#navbar .logo {
+    width: 30px;
+}
+
+
+
+/* Make the navbar sticky */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
