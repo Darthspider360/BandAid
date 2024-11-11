@@ -7,6 +7,7 @@
     --secondary-font: manjari, sans-serif;
     --primary-color: #353b3c;
     --secondary-color: #846a6a;
+    --background-color: #dde1e4;
     --background-highlight: #c6c7c4;
 }
 
@@ -27,7 +28,7 @@ h1,h2,h3{
 
 .section {
     padding-top: 4rem; /* prevent overlap */
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 
@@ -51,7 +52,7 @@ h1,h2,h3{
 
 /* Style the hero section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/hero.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -59,7 +60,16 @@ h1,h2,h3{
     padding: 8rem 0;
 }
 
-#affermation-carousel{
-    width:50%
-    height:50px
+
+
+/* Footer / contact */
+
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#contact .table-dark * {
+    background-color: transparent;
 }
