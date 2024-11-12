@@ -66,14 +66,29 @@ h3 {
     width: 30px;
 }
 
-/* Style the hero section */
-.hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/hero.jpg');
+/* Style the hero section in index */
+.hero-index {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/index-hero.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: var(--background-color);
     padding: 8rem 0;
+    max-height: 377px;
+}
+/* Style the hero section in services */
+.hero-services{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/services-hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: var(--background-color);
+    padding: 8rem 0;
+    max-height: 377px;
+}
+
+.hero-services .lead{
+    padding: 2rem;
 }
 
 /* carousel styling */
@@ -108,6 +123,14 @@ h3 {
     max-height: 300px;
 }
 /* end of code block */
+
+
+/* Services section */
+.custom-card{
+    border: 1px solid var(--primary-color);
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
 
 /* Footer / contact */
 
