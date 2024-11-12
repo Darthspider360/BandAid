@@ -11,11 +11,18 @@
     --background-highlight: #c6c7c4;
 }
 
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 /* Genral styles */
 body {
     font-family: var(--secondary-font);
     background-color: #dde1e4;
     padding-top: 57.15px;
+    margin: 0%;
     /* pushes the top of the header down under fixed navbar */
 }
 
@@ -30,7 +37,7 @@ h3 {
 }
 
 .section {
-    padding-top: 4rem;
+    padding: 0.5rem;
     /* prevent overlap */
     font-size: 1.5rem;
 }
@@ -70,29 +77,18 @@ h3 {
 }
 
 /* Tips section */
-#tips ul {
-    text-align: center;
-    list-style-type: none;
-}
-
-/* }
-#tips{
-    width: 90%;
-    margin: 20px auto;
-}
 
 #tips h2{
-    margin-bottom: 20px;
-    text-align: center;
+    padding-bottom: 0.5rem;
 }
-
-#tips-1>div,
-#tips-2>div {
-    line-height: 20px;
-    margin-bottom: 20px;
+#tips ul {
+    list-style-type: none;
+    padding: 0%;
 }
-#tips p {
-    padding: 0 20px;
+#tips-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* code taken from the love running project from code institute */
@@ -105,7 +101,7 @@ h3 {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
-} */
+}
 
 /* Footer / contact */
 
@@ -113,6 +109,7 @@ h3 {
     background-color: var(--primary-color);
     color: var(--background-color);
     padding-bottom: 3rem;
+    padding-top: 3rem;
 }
 
 #contact .table-dark * {
@@ -120,59 +117,47 @@ h3 {
     color: var(--background-color);
 }
 
+
+/* Media queries */
+
+/* Media query for larger or landscape phones (576px)*/
+@media screen and (min-width: 576px){
+    #tips ul {
+        text-align: center;
+        padding: 0;
+    }
+}
 /* Media query for tablets and larger (768px onward) */
 @media screen and (min-width: 768px) {
-
-    /* Tips section */
-    #tips h2 {
-        margin-bottom: 15px;
-    }
-
-    /* #tips-1,
-    #tips-2 {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    #tips-1>div,
-    #tips2>div {
-        width: 75%;
-    }
-
-    #tips-2>div {
-        text-align: end;
-        align-self: flex-end;
-    } */
 
 }
 
 /* media query for larger screens*/
-/* @media screen and (min-width:1200px) {
+@media screen and (min-width:1200px) {
 
-    /* reasons section*/
-    #tips {
+    /* #tips {
         display: flex;
         flex-direction: row;
     }
-
+    
     #tips>div {
         flex: 1;
     }
-
-    #tips-image {
-        order: 0;
-    }
-
+    
+    
     #tips-1 {
         order: 1;
     }
 
+    #tips-image{
+        order: -1;
+    }
     #tips-1>div {
         align-self: flex-start;
     }
-
+    
     #tips-2>div {
         align-self: self-end;
-    }
-} */
+    } */
+    
+}
