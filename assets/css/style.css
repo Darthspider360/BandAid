@@ -5,11 +5,16 @@
 :root {
     --primary-font: playwrite vn, sans-serif;
     --secondary-font: manjari, sans-serif;
-    --primary-color: #353b3c; /* Dark grey */
-    --secondary-color: #846a6a; /* darker brown/purple */
-    --third-color: #a2999e; /* light purple/brown */
-    --background-color: #dde1e4; /* white grey */
-    --background-highlight: #c6c7c4; /* light grey */
+    --primary-color: #353b3c;
+    /* Dark grey */
+    --secondary-color: #846a6a;
+    /* darker brown/purple */
+    --third-color: #a2999e;
+    /* light purple/brown */
+    --background-color: #dde1e4;
+    /* white grey */
+    --background-highlight: #c6c7c4;
+    /* light grey */
 }
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -23,7 +28,7 @@
 body {
     font-family: var(--secondary-font);
     background-color: #dde1e4;
-    
+
     margin: 0%;
     /* pushes the top of the header down under fixed navbar */
     padding-top: 56px;
@@ -45,13 +50,14 @@ p {
 }
 
 .section {
-    padding: 0.5rem;
+    padding: 75px;
     /* prevent overlap */
     font-size: 1.5rem;
 }
 
 #line-break {
     color: var(--secondary-color);
+    font-size: 2rem;
 }
 
 
@@ -101,15 +107,17 @@ p {
 }
 
 .navbar-brand img {
-    margin-right: 10px; /* Adjust as needed */
+    margin-right: 10px;
+    /* Adjust as needed */
 }
 
 .navbar-brand h1 {
     margin: 0;
-    font-size: 1.5rem; /* Adjust as needed */
+    font-size: 1.5rem;
+    /* Adjust as needed */
 }
 
-.navbar-custom .active{
+.navbar-custom .active {
     text-decoration: underline;
 }
 
@@ -141,7 +149,7 @@ p {
 
 /* carousel styling */
 #affirmation-carousel {
-    min-height: 220px;
+    min-height: 110px;
 }
 
 /* Tips section */
@@ -188,6 +196,7 @@ p {
 #therapy h5 {
     color: var(--primary-color);
     font-size: auto;
+    margin-bottom: 10px;
 }
 
 /* Footer / contact */
@@ -224,6 +233,12 @@ p {
 /* Media query for tablets and larger (768px onward) */
 @media screen and (min-width: 768px) {
 
+    /* carousel styling */
+    #affirmation-carousel {
+        min-height: 146px;
+    }
+
+
     /* services cards */
     #therapy .card-text {
         min-height: 120px;
@@ -237,6 +252,11 @@ p {
 
 /* media query for larger screens*/
 @media screen and (min-width:1200px) {
+
+    /* carousel styling */
+    #affirmation-carousel {
+        min-height: 234px;
+    }
 
     /* tips styling */
     #tips {
