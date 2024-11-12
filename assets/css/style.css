@@ -76,6 +76,11 @@ h3 {
     padding: 8rem 0;
 }
 
+/* carousel styling */
+#affirmation-carousel{
+    min-height: 220px;
+}
+
 /* Tips section */
 
 #tips h2{
