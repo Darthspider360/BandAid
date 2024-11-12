@@ -68,11 +68,11 @@ h3 {
 
 /* Style the hero section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/hero.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/hero.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: var(--background-highlight);
+    color: var(--background-color);
     padding: 8rem 0;
 }
 
@@ -102,6 +102,7 @@ h3 {
     max-width: 300px;
     max-height: 300px;
 }
+/* end of code block */
 
 /* Footer / contact */
 
@@ -123,21 +124,31 @@ h3 {
 /* Media query for larger or landscape phones (576px)*/
 @media screen and (min-width: 576px){
     #tips ul {
-        text-align: center;
         padding: 0;
+    }
+
+    #tips-1 ul, #tips-2 ul {
+        text-align: center;
     }
 }
 /* Media query for tablets and larger (768px onward) */
 @media screen and (min-width: 768px) {
-
+    /* footer styling */
+    #contact h2{
+        padding-bottom: 1rem;
+    }
 }
 
 /* media query for larger screens*/
 @media screen and (min-width:1200px) {
-
+    /* tips styling */
     #tips {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    #tips h2{
+        padding-bottom: 1rem;
     }
     
     #tips-image{
@@ -146,5 +157,13 @@ h3 {
     
     #tips-2{
         order: 3;
+    }
+
+    #tips-2 ul {
+        text-align: left;
+    }
+
+    #tips-1 ul{
+        text-align: right;
     }
 }
