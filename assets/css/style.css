@@ -23,9 +23,10 @@
 body {
     font-family: var(--secondary-font);
     background-color: #dde1e4;
-    padding-top: 57.15px;
+    
     margin: 0%;
     /* pushes the top of the header down under fixed navbar */
+    padding-top: 56px;
 }
 
 h1,
@@ -94,9 +95,22 @@ p {
     font-weight: bold;
 }
 
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
 
-#navbar .logo {
-    width: 30px;
+.navbar-brand img {
+    margin-right: 10px; /* Adjust as needed */
+}
+
+.navbar-brand h1 {
+    margin: 0;
+    font-size: 1.5rem; /* Adjust as needed */
+}
+
+.navbar-custom .active{
+    text-decoration: underline;
 }
 
 /* Style the hero section in index */
