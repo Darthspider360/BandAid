@@ -35,14 +35,29 @@ BandAid is an information webpage aimed at providing, supportive content such as
 When creating the basic information for the site, I struggled a little with coming up with the name for the site and the user stories on my own. Because of this, I used Copilot to support me.
 
 ### Naming
-First I provided copilot with a generic prompt just to see what it came up with as I was only looking for insparation.
+First I provided Copilot with a generic prompt just to see what it came up with as I was only looking for insparation.
 ![An image of copilot suggesting names for the website](assets/images/project%201%20readme%20photos/copilot-naming-1.png)
 
-None of the suggested names inspired me and so I tried a slightly more indepth prompt.
+None of the suggested names inspired me and so I tried a slightly more in-depth prompt.
 ![An image of copilot suggesting names for the website](assets/images/project%201%20readme%20photos/copilot-naming-2.png)
 
 When I saw "Sereneaid" it inspired me to use BandAid due to the connotations of healing and support.
 ### User Stories 
+Once again, I used Copilot to help be out with these too.
+To begin with, I noted down my own idea of user needs:
+![An image of my handwritten user needs](assets/images/project%201%20readme%20photos/Pre-list-key-features.jpg)
+And my own idea of User stories:
+![An image of my handwritten user stories](assets/images/project%201%20readme%20photos/pre-user-stories.jpg)
+
+I knew these weren't the best and so I turned to Copilot to see what else it could come up with. These are the User needs:
+![An image of copilot suggesting user needs](assets/images/project%201%20readme%20photos/user-needs.png)
+
+And here are the user stories:
+![An image of copilot suggeesting user stories](assets/images/project%201%20readme%20photos/user-stories-1.png)
+![An image of copilot suggeesting user stories](assets/images/project%201%20readme%20photos/user-stories-2.png)
+
+I then selected the ones I thought applied the best to the project and added these to my project board in github.
+
 
 
 ## Credits

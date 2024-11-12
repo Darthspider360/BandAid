@@ -5,10 +5,11 @@
 :root {
     --primary-font: playwrite vn, sans-serif;
     --secondary-font: manjari, sans-serif;
-    --primary-color: #353b3c;
-    --secondary-color: #846a6a;
-    --background-color: #dde1e4;
-    --background-highlight: #c6c7c4;
+    --primary-color: #353b3c; /* Dark grey */
+    --secondary-color: #846a6a; /* darker brown/purple */
+    --third-color: #a2999e; /* light purple/brown */
+    --background-color: #dde1e4; /* white grey */
+    --background-highlight: #c6c7c4; /* light grey */
 }
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -17,6 +18,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* General styles */
 body {
     font-family: var(--secondary-font);
@@ -33,7 +35,7 @@ h5 {
     font-family: var(--primary-font);
 }
 
-p{
+p {
     font-family: var(--secondary-font);
 }
 
@@ -50,6 +52,38 @@ p{
 #line-break {
     color: var(--secondary-color);
 }
+
+
+/* buttons */
+
+.btn-fill-custom-1 {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    padding: 7px 25px;
+    color: var(--background-color);
+}
+
+.btn-outline-custom-1 {
+
+    border: 3px solid var(--secondary-color);
+    padding: 7px 25px;
+    color: var(--primary-color)
+}
+
+.btn-fill-custom-2 {
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    padding: 7px 25px;
+    color: var(--background-color);
+}
+
+.btn-outline-custom-2 {
+
+    border: 3px solid var(--primary-color);
+    padding: 7px 25px;
+    color: var(--primary-color)
+}
+
 
 /* navbar */
 
@@ -81,8 +115,9 @@ p{
     padding: 8rem 0;
     max-height: 377px;
 }
+
 /* Style the hero section in services */
-.hero-services{
+.hero-services {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/services-hero.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -92,24 +127,26 @@ p{
     max-height: 377px;
 }
 
-.hero-services .lead{
+.hero-services .lead {
     padding: 2rem;
 }
 
 /* carousel styling */
-#affirmation-carousel{
+#affirmation-carousel {
     min-height: 220px;
 }
 
 /* Tips section */
 
-#tips h2{
+#tips h2 {
     padding-bottom: 0.5rem;
 }
+
 #tips ul {
     list-style-type: none;
     padding: 0%;
 }
+
 #tips-image {
     display: flex;
     justify-content: center;
@@ -127,18 +164,20 @@ p{
     max-width: 300px;
     max-height: 300px;
 }
+
 /* end of code block */
 
 
 /* Services section */
-.custom-card{
+.custom-card {
     border: 1px solid var(--primary-color);
     background-color: var(--background-color);
     color: var(--primary-color);
     text-align: center;
+    box-shadow: var(--primary-color) 1px 1px 3px;
 }
 
-#therapy h5{
+#therapy h5 {
     color: var(--primary-color);
     font-size: auto;
 }
@@ -161,48 +200,51 @@ p{
 /* Media queries */
 
 /* Media query for larger or landscape phones (576px)*/
-@media screen and (min-width: 576px){
+@media screen and (min-width: 576px) {
     #tips ul {
         padding: 0;
     }
 
-    #tips-1 ul, #tips-2 ul {
+    #tips-1 ul,
+    #tips-2 ul {
         text-align: center;
     }
 
-    
+
 }
+
 /* Media query for tablets and larger (768px onward) */
 @media screen and (min-width: 768px) {
-    
+
     /* services cards */
-    #therapy .card-text{
+    #therapy .card-text {
         min-height: 120px;
     }
-    
+
     /* footer styling */
-    #contact h2{
+    #contact h2 {
         padding-bottom: 1rem;
     }
 }
 
 /* media query for larger screens*/
 @media screen and (min-width:1200px) {
+
     /* tips styling */
     #tips {
         display: flex;
         flex-wrap: wrap;
     }
 
-    #tips h2{
+    #tips h2 {
         padding-bottom: 1rem;
     }
-    
-    #tips-image{
+
+    #tips-image {
         order: 2;
     }
-    
-    #tips-2{
+
+    #tips-2 {
         order: 3;
     }
 
@@ -210,17 +252,17 @@ p{
         text-align: left;
     }
 
-    #tips-1 ul{
+    #tips-1 ul {
         text-align: right;
     }
 
 
     /* services cards */
-    #therapy .card-text{
+    #therapy .card-text {
         min-height: 192px;
     }
 
-    #therapy h5{
+    #therapy h5 {
         color: var(--primary-color);
         min-height: 44px;
     }
