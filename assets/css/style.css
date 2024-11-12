@@ -17,7 +17,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* Genral styles */
+/* General styles */
 body {
     font-family: var(--secondary-font);
     background-color: #dde1e4;
@@ -28,8 +28,13 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h5 {
     font-family: var(--primary-font);
+}
+
+p{
+    font-family: var(--secondary-font);
 }
 
 .logo-font {
@@ -130,6 +135,12 @@ h3 {
     border: 1px solid var(--primary-color);
     background-color: var(--background-color);
     color: var(--primary-color);
+    text-align: center;
+}
+
+#therapy h5{
+    color: var(--primary-color);
+    font-size: auto;
 }
 
 /* Footer / contact */
@@ -158,9 +169,17 @@ h3 {
     #tips-1 ul, #tips-2 ul {
         text-align: center;
     }
+
+    
 }
 /* Media query for tablets and larger (768px onward) */
 @media screen and (min-width: 768px) {
+    
+    /* services cards */
+    #therapy .card-text{
+        min-height: 120px;
+    }
+    
     /* footer styling */
     #contact h2{
         padding-bottom: 1rem;
@@ -193,5 +212,16 @@ h3 {
 
     #tips-1 ul{
         text-align: right;
+    }
+
+
+    /* services cards */
+    #therapy .card-text{
+        min-height: 192px;
+    }
+
+    #therapy h5{
+        color: var(--primary-color);
+        min-height: 44px;
     }
 }
