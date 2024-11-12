@@ -43,3 +43,8 @@ None of the suggested names inspired me and so I tried a slightly more indepth p
 
 When I saw "Sereneaid" it inspired me to use BandAid due to the connotations of healing and support.
 ### User Stories 
+
+
+## Credits
+
+https://media.istockphoto.com/id/845547386/photo/human-chain-paper.jpg?s=612x612&w=0&k=20&c=mrcUyTiQdg6PXnHid-yjILRP1aIzkJXNHG2867YLoJg=
