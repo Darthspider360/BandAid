@@ -11,7 +11,7 @@ BandAid is an information webpage aimed at providing, supportive content such as
 - [Basics](#Basic)
     - [Naming](#naming)
     - [User Stories](#user-stories)
-- [User Design](#User Design)
+- [User Design](#user-design)
     - [Wireframes](#wireframes)
     - [Colour Scheme](#Colour-scheme)
     - [Typography](#Typography)
