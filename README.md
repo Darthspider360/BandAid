@@ -8,10 +8,10 @@ BandAid is an information webpage aimed at providing, supportive content such as
 
 ## **Contents**
 
-- [Basics](#)
+- [Basics](#Basic)
     - [Naming](#naming)
     - [User Stories](#user-stories)
-- [User Design](#)
+- [User Design](#User Design)
     - [Wireframes](#)
     - [Colour Scheme](#)
     - [Typography](#)
@@ -58,7 +58,11 @@ And here are the user stories:
 
 I then selected the ones I thought applied the best to the project and added these to my project board in github.
 
+## User Design
+Because I have a background in graphic design I decided to do as much of the design myself, choosing colour and typography using validators and checekrs to make sure they were acceptable and accessible as one of the user stories/needs of my site is to be as accessible as possible.
 
+### Wireframes
+I started by drawing out my wireframes by hand. I wanted to keep the design simple so that the site was easily accessible in a crisis.
 
 ## Credits
 

@@ -56,33 +56,27 @@ p {
 
 /* buttons */
 
-.btn-fill-custom-1 {
+.btn-fill-custom {
     border: 2px solid var(--secondary-color);
     background-color: var(--secondary-color);
     padding: 7px 25px;
     color: var(--background-color);
 }
 
-.btn-outline-custom-1 {
-
-    border: 3px solid var(--secondary-color);
-    padding: 7px 25px;
-    color: var(--primary-color)
-}
-
-.btn-fill-custom-2 {
-    border: 2px solid var(--primary-color);
-    background-color: var(--primary-color);
+.btn-fill-custom:hover {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--third-color);
     padding: 7px 25px;
     color: var(--background-color);
 }
 
-.btn-outline-custom-2 {
+/* .btn-outline-custom-1 {
 
-    border: 3px solid var(--primary-color);
+    border: 3px solid var(--secondary-color);
     padding: 7px 25px;
     color: var(--primary-color)
-}
+} */
+
 
 
 /* navbar */
