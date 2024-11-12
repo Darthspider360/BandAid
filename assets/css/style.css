@@ -135,29 +135,16 @@ h3 {
 /* media query for larger screens*/
 @media screen and (min-width:1200px) {
 
-    /* #tips {
+    #tips {
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
     }
     
-    #tips>div {
-        flex: 1;
-    }
-    
-    
-    #tips-1 {
-        order: 1;
-    }
-
     #tips-image{
-        order: -1;
-    }
-    #tips-1>div {
-        align-self: flex-start;
+        order: 2;
     }
     
-    #tips-2>div {
-        align-self: self-end;
-    } */
-    
+    #tips-2{
+        order: 3;
+    }
 }
