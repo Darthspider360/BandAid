@@ -35,7 +35,7 @@ BandAid is an information webpage aimed at providing, supportive content such as
     - [Lighthouse Scores](#lighthouse) 
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
-- [Deployment](#)
+- [Deployment](#deployment)
 - [Credits](#credits)
 --- 
 
@@ -202,6 +202,7 @@ I deployed my site using github and github pages. These are the steps I did:
 - Copilot for design and coding support
 - Canva for some images (mentioned above)
 - istock Photo for an image (mentioned above)
+- BACP for the information provided in the services section
 - HTML & CSS Validator
 - Devtools Lighthouse
 - AutoPrifix
