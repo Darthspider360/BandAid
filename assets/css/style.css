@@ -55,7 +55,7 @@ p {
     font-size: 1.5rem;
 }
 
-#line-break {
+.line-break {
     color: var(--secondary-color);
     font-size: 2rem;
 }
