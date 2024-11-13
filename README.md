@@ -167,6 +167,13 @@ There are a few things I'd like to change about the site including:
 ## Testing
 
 ### LightHouse
+I had a bit of an issue with load times on the lighhouse and ended up trying different forms of files and sizes for the hero image on the index page. To begin with, this was my score:
+![A screenshot of lighthouse devtools scores](assets/images/readme-photos/lighthouse-testing-1.png)
+
+I was happy I got a 100% accessibility score as this was the main aim of my site. Lighthouse suggested there was an issue with the index page hero image and so I played around with it to try to better my performance score. In doing so i also check my SEO score which prompted me to add in the meta description and key-words tags. Eventually I reached this score:
+![A screenshot of lighthouse devtools scores](assets/images/readme-photos/lighthouse-scores-2.png)
+
+### HTML Validation
 
 ## Credits
 
