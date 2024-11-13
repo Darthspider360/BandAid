@@ -160,7 +160,8 @@ I'd also like to add the mood tracker and/or the ability to create an account to
 
 ### Future Changes
 There are a few things I'd like to change about the site including:
-- Making the Hero image smaller in height so it doesnt take up so much room on the mobile layout
+- Making the Hero image smaller in height so it doesnt take up so much room on the mobile layout.
+- Center the Hero images on mobile devices.
 
 
 ## Testing
