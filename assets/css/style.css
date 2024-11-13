@@ -123,7 +123,7 @@ p {
 
 /* Style the hero section in index */
 .hero-index {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/index-hero.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/index-hero.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -134,7 +134,7 @@ p {
 
 /* Style the hero section in services */
 .hero-services {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/services-hero.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/services-hero.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -171,7 +171,7 @@ p {
 
 /* code taken from the love running project from code institute */
 #circle-cover-bg {
-    background: url("../images/tips-image.png") no-repeat center center/cover;
+    background: url("../images/tips-image.webp") no-repeat center center/cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
