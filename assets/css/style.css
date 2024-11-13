@@ -60,7 +60,6 @@ p {
     font-size: 2rem;
 }
 
-
 /* buttons */
 
 .btn-fill-custom {
@@ -76,15 +75,6 @@ p {
     padding: 7px 25px;
     color: var(--background-color);
 }
-
-/* .btn-outline-custom-1 {
-
-    border: 3px solid var(--secondary-color);
-    padding: 7px 25px;
-    color: var(--primary-color)
-} */
-
-
 
 /* navbar */
 
@@ -121,7 +111,7 @@ p {
     text-decoration: underline;
 }
 
-/* Style the hero section in index */
+/* Style the hero section in index - taken from the Code Institute Seven Seas Spa project*/
 .hero-index {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/index-hero.webp');
     background-size: cover;
@@ -132,7 +122,7 @@ p {
     max-height: 377px;
 }
 
-/* Style the hero section in services */
+/* Style the hero section in services - taken from the Code Institute Seven Seas Spa project*/
 .hero-services {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/services-hero.webp');
     background-size: cover;
@@ -225,8 +215,6 @@ p {
     #tips-2 ul {
         text-align: center;
     }
-
-
 }
 
 /* Media query for tablets and larger (768px onward) */
@@ -236,7 +224,6 @@ p {
     #affirmation-carousel {
         min-height: 146px;
     }
-
 
     /* services cards */
     #therapy .card-text {

@@ -3,7 +3,7 @@ BandAid is an information webpage aimed at providing, supportive content such as
 
 <br>
 
-[insert finished website device mockup screenshot here]
+![Screenshot of my website mockup](assets/images/readme-photos/mock-up.png)
 ---
 
 ## **Contents**
@@ -31,12 +31,11 @@ BandAid is an information webpage aimed at providing, supportive content such as
     - [Tablet Layout](#tablet-layout)
 - [Future Features](#future-features)
     - [Future Changes](#future-changes)
-- [Testing](#)
-    - [Lighthouse Scores](#) 
-    - [HTML Validation](#)
-    - [CSS Validation](#)
-    - [Bugs & Fixes](#)
-- [Credits](#)
+- [Testing](#testing)
+    - [Lighthouse Scores](#lighthouse) 
+    - [HTML Validation](#html-validation)
+    - [CSS Validation](#css-validation)
+- [Credits](#credits)
 --- 
 
 ## Basics
@@ -179,6 +178,16 @@ The index page had the most syntax errors. (the services page only had 1 stray "
 Using the identified errors I corrected them and then re-ran the test to get success:
 ![A screenshot of html validator success](assets/images/readme-photos/html-validation-success.png)
 
-## Credits
+### CSS Validation
+I only had 1 css error to fix which I am proud of.
+![A screenshot of the css validator issues](assets/images/readme-photos/css-validation.png)
+![A screenshot of the css validator success](assets/images/readme-photos/css-validator-success.png)
 
-https://media.istockphoto.com/id/845547386/photo/human-chain-paper.jpg?s=612x612&w=0&k=20&c=mrcUyTiQdg6PXnHid-yjILRP1aIzkJXNHG2867YLoJg=
+## Credits
+- Amy for the README Layout idea
+- Code Institute for the code snippets (commented inline)
+- Copilot for design and coding support
+- Canva for some images (mentioned above)
+- istock Photo for an image (mentioned above)
+
+- Mugs of tea and bacon sandwhiches for moral support
