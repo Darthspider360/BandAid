@@ -35,6 +35,7 @@ BandAid is an information webpage aimed at providing, supportive content such as
     - [Lighthouse Scores](#lighthouse) 
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
+- [Deployment](#)
 - [Credits](#credits)
 --- 
 
@@ -173,7 +174,7 @@ I was happy I got a 100% accessibility score as this was the main aim of my site
 ![A screenshot of lighthouse devtools scores](assets/images/readme-photos/lighthouse-scores-2.png)
 
 ### HTML Validation
-The index page had the most syntax errors. (the services page only had 1 stray "). It began with a stray body tag which stopped any others loading and so once i removed that other issues popped up:
+The index page had the most syntax errors. (the services page only had 1 stray "). It began with a stray body tag which stopped any others loading and so once I removed that other issues popped up:
 ![A screenshot of html validator issues](assets/images/readme-photos/html-validation-2.png)
 Using the identified errors I corrected them and then re-ran the test to get success:
 ![A screenshot of html validator success](assets/images/readme-photos/html-validation-success.png)
@@ -182,6 +183,17 @@ Using the identified errors I corrected them and then re-ran the test to get suc
 I only had 1 css error to fix which I am proud of.
 ![A screenshot of the css validator issues](assets/images/readme-photos/css-validation.png)
 ![A screenshot of the css validator success](assets/images/readme-photos/css-validator-success.png)
+
+## Deployment
+I deployed my site using github and github pages. These are the steps I did:
+
+1. Logged into my GitHub account
+2. Went to the BandAid repository
+3. Click the Settings button near the top of the page
+4. In the left-hand menu I navigated to the Pages button
+5. In the Source section I chose 'main' from the drop-down
+6. I selected 'root' from the drop-down folder menu in branch menu
+7. I saved adn then waited a short while for the link to be generated.
 
 ## Credits
 - Amy for the README Layout idea

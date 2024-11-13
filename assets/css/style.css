@@ -202,6 +202,15 @@ p {
     color: var(--background-color);
 }
 
+.copywrite{
+    color: var(--background-highlight);
+    font-size: medium;
+}
+
+.copywrite a{
+    color: var(--background-highlight);
+}
+
 
 /* Media queries */
 
