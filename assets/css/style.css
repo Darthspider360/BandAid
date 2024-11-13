@@ -123,7 +123,7 @@ p {
 
 /* Style the hero section in index */
 .hero-index {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/index-hero.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/index-hero.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
