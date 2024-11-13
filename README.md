@@ -32,9 +32,9 @@ BandAid is an information webpage aimed at providing, supportive content such as
 - [Future Features](#future-features)
     - [Future Changes](#future-changes)
 - [Testing](#)
+    - [Lighthouse Scores](#) 
     - [HTML Validation](#)
     - [CSS Validation](#)
-    - [Lighthouse Scores](#)
     - [Bugs & Fixes](#)
 - [Credits](#)
 --- 
@@ -165,6 +165,8 @@ There are a few things I'd like to change about the site including:
 
 
 ## Testing
+
+### LightHouse
 
 ## Credits
 
