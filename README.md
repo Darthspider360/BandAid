@@ -183,6 +183,7 @@ Using the identified errors I corrected them and then re-ran the test to get suc
 I only had 1 css error to fix which I am proud of.
 ![A screenshot of the css validator issues](assets/images/readme-photos/css-validation.png)
 ![A screenshot of the css validator success](assets/images/readme-photos/css-validator-success.png)
+Once done this, I used Auto prefix to make sure all OS's can access the site.
 
 ## Deployment
 I deployed my site using github and github pages. These are the steps I did:
@@ -201,5 +202,7 @@ I deployed my site using github and github pages. These are the steps I did:
 - Copilot for design and coding support
 - Canva for some images (mentioned above)
 - istock Photo for an image (mentioned above)
-
+- HTML & CSS Validator
+- Devtools Lighthouse
+- AutoPrifix
 - Mugs of tea and bacon sandwhiches for moral support
